@@ -1,0 +1,29 @@
+# === Maven / Gradle Builds ===
+target/
+build/
+out/
+
+# === Logs ===
+*.log
+
+# === Eclipse / STS ===
+.classpath
+.project
+.settings/
+.springBeans
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# === VS Code ===
+.vscode/
+
+# === OS generated files ===
+.DS_Store
+Thumbs.db
+
+# === Environment ===
+*.env
