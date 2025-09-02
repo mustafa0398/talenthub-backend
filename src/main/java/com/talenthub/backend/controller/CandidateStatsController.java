@@ -8,7 +8,7 @@ import com.talenthub.backend.dto.CandidateStatsResponse;
 import com.talenthub.backend.service.CandidateStatsService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173") // oder "*" für alle
+@CrossOrigin(origins = "http://localhost:5173") 
 public class CandidateStatsController {
     private final CandidateStatsService statsService;
 
